@@ -9,3 +9,8 @@
     Code as well cannot exist in a vacuum where only skill is involved, because skill alone is not sufficient to qualify you as being good or not. It's the impact that you create. It's entrepreneurship. And it is the entrepreneurial factor that gives coding all of its glory: the ability for a single person to just go out and build something and affect the world. 
 
 - Marketing focused 
+- Reliable 
+
+> Take your skill, turn it into a product, and then bring that to market and that's how you deliver impact. And that's one of the clearest and strongest ways to show, and not tell, about your qualifications. 
+
+> There's a quote I like: "When you're good at something, you tell everyone. When you're great at something, they'll tell you."
