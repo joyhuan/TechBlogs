@@ -13,7 +13,7 @@
 
 Bad Taste 
 ```
-remove_lsit_entry(entry)
+remove_list_entry(entry)
 {
   prev = NULL;
   walk = head; 
@@ -35,7 +35,7 @@ remove_lsit_entry(entry)
 
 Good Taste
 ```
-remove_lsit_entry(entry)
+remove_list_entry(entry)
 {
   // The "indirect" pointer points to the *address* of the thing we'll update
   
@@ -48,6 +48,7 @@ remove_lsit_entry(entry)
     
   // .. and just remove it
   *indirect = entry->next; 
+}
 ```
 
 Incorporate edge cases to normal case; think in another way 
