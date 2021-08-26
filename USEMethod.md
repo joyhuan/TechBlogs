@@ -1,5 +1,8 @@
 # The USE Method
+The Utilization Saturation and Errors (USE) Method is a methodology for analyzing the performance of any system.
 ## For every resource, check utilization, saturation, and errors.
+Intended to be used early in a performance investigation, to identify systemic bottlenecks.
+
 - resource: all physical server functional components (CPUs, disks, busses, ...)
 - utilization: the average time that the resource was busy servicing work 
 - saturation: the degree to which the resources has extra work which it can't service, often queued
