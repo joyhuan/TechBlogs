@@ -51,3 +51,9 @@ Puppet will
 - define a collection of resources that are managed together as a single unit
 - defining a class makes it available, but does not declare it (i.e., it isn't used/applied)
 - classes are singletons (vs. resources, where there are many)
+
+## Modules
+- modules are self-contained bundles of code and data
+- all Puppet manifests belong in modules (except site.pp)
+- you can download pre-built modules from the Puppet Forge or you can write your own
+- teh only way Puppet can find (and load) classes is if they are in modules
