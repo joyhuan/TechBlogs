@@ -17,7 +17,7 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 - Designed for extensibility
 
 ## Dockerfile
-- Descrives the build process for an image
+- Describes the build process for an image
 - Can be run to automatically create an image
 - Contains all the commands necessary to build the image and run your application
 
