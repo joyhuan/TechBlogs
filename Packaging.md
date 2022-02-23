@@ -1,7 +1,7 @@
 # Packaging Programs in JAR Files
 The Java™ Archive (JAR) file format enables you to bundle multiple files into a single archive file. Typically a JAR file contains the class files and auxiliary resources associated with applets and applications.
 
-## benefits
+## Benefits
 - Security: digital sign
 - Decreased download time
 - Compression
