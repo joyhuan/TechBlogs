@@ -37,3 +37,19 @@ Deploying and scaling containers
     - Usually a load balancer
 - Deployment
     - Defines desired state - kubernetes handles the rest
+
+## Declarative Model
+K8s utilizes infrastructure-as-code concepts. All resources and configurations are done in declarative YAML files called resource templates or manifests and applied to your cluster.
+
+## KIND
+Kubernetes in Docker (KIND) uses Docker containers as your Kubernetes nodes.
+
+## Kubectl
+Kubectl provides the command line interaction with your cluster. This is how 
+you’ll view and manage things like pods, services, etc, and apply template files to your cluster. Kubectl is a REST API client to the kube-api-server.
+
+## Contexts
+Kubectl can be pointed to different clusters for management. If you installed 
+minikube and also activated Kubernetes for Docker, you’ll need to tell 
+kubectl which cluster to work on. You do this with context.
+
