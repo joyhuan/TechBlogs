@@ -53,3 +53,19 @@ Kubectl can be pointed to different clusters for management. If you installed
 minikube and also activated Kubernetes for Docker, you’ll need to tell 
 kubectl which cluster to work on. You do this with context.
 
+## A REST API
+Kubernetes is an API-driven system. EVERY resource/object that exists in 
+the system is a REST resource.
+
+## Event-Driven
+Kubernetes is an event driven system. This enables Kubernetes respond to 
+changes extremely rapidly. 
+
+## Core Components
+- Master components - the controller for the cluster. Also known as the "control plane"
+- Nodes - the servers in our cluster. There are master nodes and worker nodes.
+- Workloads - running containers to do the work. These can be created in several ways as we'll see.
+- Services - provide network connectivity to workloads.
+
+## Master Components
+
