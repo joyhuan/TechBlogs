@@ -7,6 +7,8 @@ An implementation of the AMQP message model (Advanced Message Queueing Protocol)
 - performant
 
 binding
+<img width="966" alt="Screen Shot 2022-03-09 at 11 55 41 PM" src="https://user-images.githubusercontent.com/25856887/157614584-504f9751-9a22-43df-bc45-de51fca7d595.png">
+
 
 ## Benefits
 ### Flexibility 
