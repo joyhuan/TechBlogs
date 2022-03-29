@@ -21,4 +21,6 @@ Charts are easy to create, version, share, and publish — so start using Helm a
 ## Feature 3. Release Management
 
 ## Helm Chart Structure
+![Helm Chart Structure](https://github.com/joyhuan/TechBlogs/blob/master/images/HelmChartStructure.png)
+
 `helm install <chartname>` Template files will be filled with the values from values.yaml
