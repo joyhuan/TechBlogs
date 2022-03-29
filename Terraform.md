@@ -1,8 +1,20 @@
 # Terraform
 
+- automate and manage your infra
+- your platform
+- and services that run on that platform
+
+- oepn source
+- decalarative
+
+## Tool for infra provisioning
+
+
 Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
-Terraform's configuration language is declarative, meaning that it describes the desired end-state for your infrastructure, in contrast to procedural programming languages that require step-by-step instructions to perform tasks. Terraform providers automatically calculate dependencies between resources to create or destroy them in the correct order.
+Terraform's configuration language is declarative (describes the desired end-state for your infra), verses procedural/imperative PL that require step-by-step instructions to perform tasks. 
+
+Terraform providers automatically calculate dependencies between resources to create or destroy them in the correct order.
 
 
 To deploy infrastructure with Terraform:
