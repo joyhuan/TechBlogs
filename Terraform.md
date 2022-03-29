@@ -9,7 +9,7 @@
 
 ## Tool for infra provisioning
 
-
+![Terraform Architecture](https://github.com/joyhuan/TechBlogs/blob/master/images/TerraformArchitecture.png)
 Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
 Terraform's configuration language is declarative (describes the desired end-state for your infra), verses procedural/imperative PL that require step-by-step instructions to perform tasks. 
