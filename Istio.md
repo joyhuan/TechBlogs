@@ -5,7 +5,12 @@ Simplify observability, traffic management, security, and policy with the leadin
 Istio extends Kubernetes to establish a programmable, application-aware network using the powerful Envoy service proxy. Working with both Kubernetes and traditional workloads, Istio brings standard, universal traffic management, telemetry, and security to complex deployments.
 
 ## What is a Service Mesh?
-A service mesh is a dedicated infrastructure layer that you can add to your applications. It allows you to transparently add capabilities like observability, traffic management, and security, without adding them to your own code. The term “service mesh” describes both the type of software you use to implement this pattern, and the security or network domain that is created when you use that software.
+- mangages **communication** between **microservices**
+- dedicated infra layer that you can add to your applications
+- allows you to transparently add capabilities like observability, traffic management, and security, without adding them to your own code
+- The term “service mesh” describes both the type of software you use to implement this pattern, and the security or network domain that is created when you use that software.
+
+![Service Mesh](https://github.com/joyhuan/TechBlogs/blob/master/images/ServiceMesh.png)
 
 ## How it Works
 Istio has two components: the data plane and the control plane.
@@ -17,6 +22,8 @@ Service mesh uses a proxy to intercept all your network traffic, allowing a broa
 An Envoy proxy is deployed along with each service that you start in your cluster, or runs alongside services running on VMs.
 
 The control plane takes your desired configuration, and its view of the services, and dynamically programs the proxy servers, updating them as the rules or the environment changes.
+
+![Istio](https://github.com/joyhuan/TechBlogs/blob/master/images/IstioArchitecture.png)
 
 ## Concepts
 ### Traffic management
