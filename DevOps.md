@@ -15,6 +15,8 @@ in the center of DevOps is CI/CD Pipeline
 Core of CI/CD Pipeline
 configure complete CI/CD Pipeline
 
+![CICD Pipeline](https://github.com/joyhuan/TechBlogs/blob/master/images/CICDPipeline.png)
+
 ## Cloud Providers
 ## Container Orchestration
 ## Monitoring
