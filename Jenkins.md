@@ -24,3 +24,7 @@ Four main build tools
 - Create Multibranch Pipeline with Git Repo
 - Types of Credentials
 - Jenkinsfile 
+
+### Trigger Build Automatically
+- Push Notification (Version Control notifies Jenkins on new commit)
+- Polling (Jenkins polls in regular intervalls)
