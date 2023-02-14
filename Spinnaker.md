@@ -1,5 +1,5 @@
 # Spinnaker
-Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
+Spinnaker is an **open source**, **multi-cloud continuous delivery** platform for **releasing** software changes with high velocity and confidence.
 
 Cloud Native Continuous Delivery
 Fast, safe, repeatable deployments for every enterprise
@@ -13,6 +13,13 @@ Fast, safe, repeatable deployments for every enterprise
 In addition, Spinnaker provides a higher-level experience that builds on top of the above features via Managed delivery.
 
 ### Application management
+
+view and manage cloud resources
+
+Modern tech organizations operate collections of services -- sometimes referred to as "applications" or "microservices."
+
+**Applications, clusters**, and **server groups** are the key concepts Spinnaker uses to describe your services.
+**Load balancers and firewalls** describe how your services are exposed to users.
 
 #### Application
 An application in Spinnaker is a collection of clusters, which in turn are collections of server groups. The application also includes firewalls and load balancers.
